@@ -24,3 +24,16 @@ Maybe I can take this time to understand the concepts better? (this might take l
 
 
 **A protocol that we can really really trust**
+
+How to 
+```
+module load miniconda
+mamba create --name me700-final
+mamba activate me700-final
+mamba install -c conda-forge matplotlib
+mamba install -c conda-forge fenics=2019.1.0
+pip install pandas
+pip install pygmsh
+pip install numpy
+```
+
