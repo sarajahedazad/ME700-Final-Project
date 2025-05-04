@@ -33,6 +33,7 @@ mamba activate me700-final
 mamba install -c conda-forge matplotlib
 mamba install -c conda-forge fenics=2019.1.0
 mamba install -c conda-forge h5py
+mamba install -c conda-forge scipy
 pip install pandas
 pip install pygmsh
 pip install numpy
