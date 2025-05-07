@@ -22,6 +22,11 @@ Maybe I can take this time to understand the concepts better? (this might take l
 
 6-3-8  
 
+**Skills Used**   
+ADD THE SKILLS YOU USED IN THIS PROJECT HERE
+
+**Reproducibility**   
+ADD REPRODUCIBILITY   
 
 **A protocol that we can really really trust**
 
@@ -38,4 +43,8 @@ pip install pandas
 pip install pygmsh
 pip install numpy
 ```
+
+
+
+
 
