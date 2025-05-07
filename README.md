@@ -43,10 +43,17 @@ pip install pandas
 pip install pygmsh
 pip install numpy
 ```
+**Code Structure**
 
 <p align="center">
 <img src="https://github.com/sarajahedazad/ME700-Final-Project/blob/main/readme%20figures/final_project_flowchart.png" width="500">
 </p>
+
+Preprocess:
+
+
+
+
 
 
 
