@@ -1,0 +1,5 @@
+ChatGPT was used in this project for the following:
+- cleaning the codes and wrapping up the results.
+- Implementation of partitioning in the solver and understanding how to extract eigenvalue/eigenvectors. `solver.py `had the most ammount of AI contect in it among the files.
+- Turning the 3D codes for MSA to 2D codes.
+- Completting the documentations.
