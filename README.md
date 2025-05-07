@@ -49,7 +49,24 @@ pip install numpy
 <img src="https://github.com/sarajahedazad/ME700-Final-Project/blob/main/readme%20figures/final_project_flowchart.png" width="500">
 </p>
 
-Preprocess:
+**Preprocess:**
+### Before Analysis   
+**Mesh Generation**   
+Mesh generation relies on the routines defined in `archstruct_meshgen_functions.py`. To recreate the full dataset (of which only a handful of samples are used here), simply run the `archstruct_meshgen_main.py` script.
+
+**Generating CSV Parameters**  
+You can specify the list of parameters to iterate over when running batch jobs in `archstruct_jobscsvgen.py`. For example, to perform analysis on three samples with cell keys 44444444, 55555555, and 66666666 across three mesh critical lengths (2, 1, and 0.1), you should define:
+```
+strkey_lst = ['44444444', '55555555', '66666666']
+lcar_lst = [2, 1, 0.1]
+```
+You can see the rest of the parameters that should be defined in `archstruct_jobscsvgen.py`.
+### Analysis
+**Matrix Structural Analysis**   
+
+**Finite Element Analysis**
+
+### Wrapping Up Results
 
 
 
