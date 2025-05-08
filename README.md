@@ -1,13 +1,15 @@
 # ME700-Final-Project 
 
 ## Table of Contents
-
+- [Definition of the Problem]( #def )
 - [Skills Used from ME700](#skills)
 - [Technical Correctness](#techcorrect)
 - [Reproducibility](#Reproducibility)
 - [Code Structure](#codestruct)
 - [Results](#Results)
 - [References](#References)
+
+## Definition of the Problem <a name="def"></a>
 
 ## Skills Used from ME700 <a name="skills"></a>
 **Setting Up a Conda/Mamba Environment**  
