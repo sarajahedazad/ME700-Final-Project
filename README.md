@@ -24,12 +24,7 @@ This project marked my first time implementing Matrix Structural Analysis (MSA) 
 
 **Validation of Results:**
 Given that my project focused on comparing two different analysis methods (MSA and Finite Element Analysis), I gained experience in systematically validating results.This experience reinforced the importance of verification and validation in any computational project.
-
-
-**Setting up a conda/mamba environment:** Before I just had a shallow familarity with using conda env, I was not really that familiar wih how to set those envs and install dependencies, but throuout the course I learned how to use them.   
-**Github:** I learned how to write more modular codes and how to organize these codes better.   
-**Automation:** when you are working with several dataset and pieces of code, you cannot really go through running them manually one by one. I learned how imoportant aoutomation  
-**Matrix Structural Analysis:** In this semester, it was my first time implementing matrix structural analysis. It was a good method to try to validate   
+  
 ### Technical Correctness:   
 
 
