@@ -44,7 +44,7 @@ I believe my work is technically correct because the core objective of my projec
 **Further Improvements:**  
 To enhance the accuracy and reliability of the validation process, I plan to:
 
-- Compare Results with Analytical Solutions: Implement a basic column analysis using both MSA and FEA, and compare the results with theoretical solutions for direct verification.
+- Compare Results with Theoritical Solutions: Implement a basic column analysis using both MSA and FEA, and compare the results with theoretical solutions for direct verification.
 
 - Explore Mesh Sensitivity: Conduct a mesh refinement study to evaluate how the FEA results converge. (This was limited due to memory issues with MSA.)
 
