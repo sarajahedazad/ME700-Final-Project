@@ -9,7 +9,7 @@
 - [Results](#Results)
 - [References](#References)
 
-## Definition of the Problem <a name="def"></a>
+## Problem Definition <a name="def"></a>
 Architected materials are fascinating because their geometry—not just their composition—determines their mechanical behavior. In my research, I focus on strut-based architected materials and how they buckle when compressed.
 
 But it's not just if they buckle—it's how they buckle: what shape do they take? How does that relate to their internal layout? That’s the deeper question I’m exploring.
