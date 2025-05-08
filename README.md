@@ -1,7 +1,7 @@
 # ME700-Final-Project 
 
 ### Table of Contents
-- [Definition of the Problem]( #def )
+- [Problem Definition]( #def )
 - [ME700 Applied Skills](#skills)
 - [Technical Correctness](#techcorrect)
 - [Reproducibility](#Reproducibility)
