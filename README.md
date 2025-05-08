@@ -75,15 +75,15 @@ lcar_lst = [2, 1, 0.1]
 ```
 You can see the rest of the parameters that should be defined in `archstruct_jobscsvgen.py`.   
 Note: It should be noted that most of the parameters in this csv file won't be used in MSA, and parts of them won't be used in FEA either if there is no perturbation. Even if there is perturbation, not all of them will be used (it depends on the type of perturbation)
-## Analysis
+### Analysis
 **Matrix Structural Analysis**   
 
 **Finite Element Analysis**
 
-## Wrapping Up Results <a name="wrapup"></a>
+### Wrapping Up Results <a name="wrapup"></a>
 
 
-## Things to be careful about when reproducing the results
+### Things to be careful about when reproducing the results
 
 
 ## Results of the Project <a name="results"></a>
