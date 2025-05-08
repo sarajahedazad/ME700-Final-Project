@@ -1,5 +1,14 @@
 # ME700-Final-Project 
 
+## Table of Contents
+
+- [Course Information](#course-information)
+- [Problem Overview](#problem)
+- [Theory](#theory)
+- [Conda Environment, Installation, and Testing](#install)
+- [How to Use The Codes](#htu)
+- [References](#references)
+
 **Skills Used** 
 Setting up a conda/mamba environment: Before I just had a shallow familarity with using conda env, I was not really that familiar wih how to set those envs and install dependencies, but throuout the course I learned how to use them.
 Github: I learned how to write more modular codes and how to organize these codes better. 
@@ -7,7 +16,7 @@ Automation: when you are working with several dataset and pieces of code, you ca
 Matrix structural analysis: In this semester, it was my first time implementing matrix structural analysis. it was 
 
 
-### Reproducibility
+## Reproducibility
 
 
 **A protocol that we can really really trust**
@@ -53,21 +62,21 @@ lcar_lst = [2, 1, 0.1]
 ```
 You can see the rest of the parameters that should be defined in `archstruct_jobscsvgen.py`.   
 Note: It should be noted that most of the parameters in this csv file won't be used in MSA, and parts of them won't be used in FEA either if there is no perturbation. Even if there is perturbation, not all of them will be used (it depends on the type of perturbation)
-### Analysis
+## Analysis
 **Matrix Structural Analysis**   
 
 **Finite Element Analysis**
 
-### Wrapping Up Results
+## Wrapping Up Results
 
 
-### Things to be careful about when reproducing the results
+## Things to be careful about when reproducing the results
 
 
-### Results of the Project
+## Results of the Project
 
 
-### References
+## References
 
 
 
