@@ -25,12 +25,16 @@ This project marked my first time implementing Matrix Structural Analysis (MSA) 
 **Validation of Results:**
 Given that my project focused on comparing two different analysis methods (MSA and Finite Element Analysis), I gained experience in systematically validating results.This experience reinforced the importance of verification and validation in any computational project.
   
-### Technical Correctness:   
+## Technical Correctness:   
 
 
 ## Reproducibility
 
-### Step 1: Copy files from GitHub to your desired destination (
+### Step 1: Clone files from GitHub to your desired destination.
+```
+git clone https://github.com/sarajahedazad/ME700-Final-Project.git   
+cd ME700-Final-Project
+```
 
 ### Step 2: How to setup a mamba/conda environment and install dependencies
 ```
