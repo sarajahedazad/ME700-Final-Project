@@ -37,7 +37,7 @@ Then you should open a terminal
 **Code Structure**
 
 <p align="center">
-<img src="https://github.com/sarajahedazad/ME700-Final-Project/blob/main/readme%20figures/final_project_flowchart.png" width="500">
+<img src="https://github.com/sarajahedazad/ME700-Final-Project/blob/main/figures/final_project_flowchart.png" width="500">
 </p>
 
 **Preprocess:**
