@@ -23,7 +23,7 @@ Doing this manually for a few samples is easy. But as my dataset grows, it becom
 This will serve as a modular, testable framework that not only helps with this class, but directly supports my PhD research moving forward.   
 
 <p align="center">
-<img src="figures/gif_C.gif" width="500">
+<img src="figures/gif_C.gif" width="200">
 </p>
 
 ## ME700 Applied Skills <a name="skills"></a>
