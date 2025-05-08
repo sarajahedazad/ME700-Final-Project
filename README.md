@@ -1,6 +1,6 @@
 # ME700-Final-Project 
 
-## Table of Contents
+### Table of Contents
 - [Definition of the Problem]( #def )
 - [Skills Used from ME700](#skills)
 - [Technical Correctness](#techcorrect)
