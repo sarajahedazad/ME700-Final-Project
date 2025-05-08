@@ -69,14 +69,17 @@ To enhance the accuracy and reliability of the validation process, I plan to:
 
 
 ## Reproducibility
+### Step 0: Go to your desired destination on SCC and open a terminal
 
-### Step 1: Clone files from GitHub to your desired destination.
+### Step 1: Clone files from GitHub
+Copy and paste these in the terminal.
 ```
 git clone https://github.com/sarajahedazad/ME700-Final-Project.git   
 cd ME700-Final-Project
 ```
-
-### Step 2: How to setup a mamba/conda environment and install dependencies
+`Note:` Be careful that when running the codes, you are in the correct fodler where the codes are. `cd ME700-Final-Project` makes sure you are in the correct folder `ME700-Final-Project`.   
+### Step 2: Setup a mamba/conda environment and install dependencies  
+Cooy and paste this in the terminal.
 ```
 module load miniconda
 mamba create --name me700-final
@@ -88,7 +91,13 @@ mamba install -c conda-forge scipy
 pip install pandas
 pip install pygmsh
 pip install numpy
-```  
+```
+**OR** You can alternatively use conda instead of mamba. (load conda instead of miniconda)
+Once you have gone through this process, next time you need that environment you can simply run the following:
+```
+module load miniconda
+mamba activate me700-final
+```
 ### Step 3: Running the Codes   
 Copy and paste the following commands in the terminal on SCC. You have to wait until the jobs are finished. You will recieve an email when the first job atats and when the last job finishes.
 ```
