@@ -41,13 +41,12 @@ Becarefull
 ### Step 4: Look at the results
    
 
-**Code Structure**
+## Code Structure
 
 <p align="center">
 <img src="https://github.com/sarajahedazad/ME700-Final-Project/blob/main/figures/final_project_flowchart.png" width="500">
 </p>
 
-**Preprocess:**
 ### Before Analysis   
 **Mesh Generation**   
 Mesh generation relies on the routines defined in `archstruct_meshgen_functions.py`. To recreate the full dataset (of which only a handful of samples are used here), simply run the `archstruct_meshgen_main.py` script.
