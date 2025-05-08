@@ -89,13 +89,37 @@ pip install pandas
 pip install pygmsh
 pip install numpy
 ```  
-### Step 3: Running codes   
-Copy and paste 
+### Step 3: Running the Codes   
+Copy and paste the following commands in the terminal on SCC. You have to wait until the jobs are finished. You will recieve an email when the first job atats and when the last job finishes.
 ```
+qsub -N myjob_meshgen job_meshgen.sh
+qsub -N myjob_jobscsvgen -hold_jid myjob_meshgen job_jobscsvgen.sh
+qsub -N myjobarr_msa -hold_jid myjob_jobscsvgen jobarr_msa.sh 
+qsub -N myjobarr_fea -hold_jid myjob_jobscsvgen jobarr_fea.sh
+qsub -N myjob_msavsfea -hold_jid "myjobarr*" job_msavsfea.sh
+
 ```
 Becarefull
 ### Step 4: Look at the results
-   
+You can look at the generated   
+**Mesh**
+*Directory:* 
+*Naming Example:* 
+
+**Keys**
+*Directory:* 
+*Naming Example:* 
+
+**MSA Results: Critical Displacement, Critical Force and Eigenvector:**
+*Directory:* 
+*Naming Example:* 
+
+**FEA Results: Critical Displacement, Critical Force and Eigenvector:**
+*Directory:* 
+*Naming Example:* 
+
+**Wrapped Up Results:**
+
 
 ## Code Structure  <a name="codestruct"></a>
 
