@@ -1,32 +1,14 @@
-# ME700-Final-Project
+# ME700-Final-Project 
 
-I am work shppoing my ideas here!  
-I can use this project as an opportunity to really organize my own reseach.
+**Skills Used** 
+Setting up a conda/mamba environment: Before I just had a shallow familarity with using conda env, I was not really that familiar wih how to set those envs and install dependencies, but throuout the course I learned how to use them.
+Github: I learned how to write more modular codes and how to organize these codes better. 
+Automation: when you are working with several dataset and pieces of code, you cannot really go through running them manually one by one. I learned how imoportant aoutomation
+Matrix structural analysis: In this semester, it was my first time implementing matrix structural analysis. it was 
 
-**What do I wanna add to my project?** 
-- simple column vs theory --> different meshes
-- 2D matrix structural analysis vs fenics -> different meshes
-  or now do it for symmetric structures. Do everything for symmetric ones.
-if I have the time, I have to add the asymmetric ones
 
-***Documentation***
-- Theory  
-Maybe I can take this time to understand the concepts better? (this might take like 6 hours)
-(2 hours for theory, 2 hour sfor reviewing fem and all, 2 hours for the code)
-- Actually learn the kind of chnages to MSA (2-3)
-- How to run codes documentation (2 hrs)   
+### Reproducibility
 
-- Mesh generation clenaning (2 hr)
-- Functions cleaning (2 hr) 
-- Automation tools in one place (2 hr)
-
-6-3-8  
-
-**Skills Used**   
-ADD THE SKILLS YOU USED IN THIS PROJECT HERE
-
-**Reproducibility**   
-ADD REPRODUCIBILITY   
 
 **A protocol that we can really really trust**
 
@@ -43,6 +25,15 @@ pip install pandas
 pip install pygmsh
 pip install numpy
 ```
+The following files should be in the same folder:
+```
+```
+Then you shpuld open a terminal when you are in the folder as 
+The following files should be in the same folder:
+```
+```
+Then you should open a terminal 
+
 **Code Structure**
 
 <p align="center">
@@ -71,6 +62,12 @@ Note: It should be noted that most of the parameters in this csv file won't be u
 
 
 ### Things to be careful about when reproducing the results
+
+
+### Results of the Project
+
+
+### References
 
 
 
