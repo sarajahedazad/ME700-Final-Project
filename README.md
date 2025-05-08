@@ -2,14 +2,14 @@
 
 ## Table of Contents
 
-- [Course Information](#course-information)
-- [Problem Overview](#problem)
-- [Theory](#theory)
+- [Skills Used in This Project](#skills)
+- [Problem Overview](#Reproducibility)
+- [Analysis](#Analysis)
 - [Conda Environment, Installation, and Testing](#install)
 - [How to Use The Codes](#htu)
 - [References](#references)
 
-**Skills Used** 
+## Skills Used in This Project <a name="skills"></a>
 Setting up a conda/mamba environment: Before I just had a shallow familarity with using conda env, I was not really that familiar wih how to set those envs and install dependencies, but throuout the course I learned how to use them.
 Github: I learned how to write more modular codes and how to organize these codes better. 
 Automation: when you are working with several dataset and pieces of code, you cannot really go through running them manually one by one. I learned how imoportant aoutomation
@@ -18,10 +18,9 @@ Matrix structural analysis: In this semester, it was my first time implementing 
 
 ## Reproducibility
 
+### Step 1: Copy files from GitHub to your desired destination (
 
-**A protocol that we can really really trust**
-
-How to 
+### Step 2: How to setup a mamba/conda environment and install dependencies
 ```
 module load miniconda
 mamba create --name me700-final
@@ -33,15 +32,14 @@ mamba install -c conda-forge scipy
 pip install pandas
 pip install pygmsh
 pip install numpy
-```
-The following files should be in the same folder:
-```
-```
-Then you shpuld open a terminal when you are in the folder as 
-The following files should be in the same folder:
+```  
+### Step 3: Running codes   
+Copy and paste 
 ```
 ```
-Then you should open a terminal 
+Becarefull
+### Step 4: Look at the results
+   
 
 **Code Structure**
 
@@ -67,13 +65,13 @@ Note: It should be noted that most of the parameters in this csv file won't be u
 
 **Finite Element Analysis**
 
-## Wrapping Up Results
+## Wrapping Up Results <a name="wrapup"></a>
 
 
 ## Things to be careful about when reproducing the results
 
 
-## Results of the Project
+## Results of the Project <a name="results"></a>
 
 
 ## References
