@@ -3,10 +3,10 @@
 ## Table of Contents
 
 - [Skills Used in This Project](#skills)
-- [Problem Overview](#Reproducibility)
-- [Analysis](#Analysis)
-- [Conda Environment, Installation, and Testing](#install)
-- [How to Use The Codes](#htu)
+- [Technical Correctness](#techcorrect)
+- [Reproducibility](#Reproducibility)
+- [Code Structure](#codestruct)
+- [Results](#results)
 - [References](#references)
 
 ## Skills Used in This Project <a name="skills"></a>
@@ -25,7 +25,7 @@ This project marked my first time implementing Matrix Structural Analysis (MSA) 
 **Validation of Results:**
 Given that my project focused on comparing two different analysis methods (MSA and Finite Element Analysis), I gained experience in systematically validating results.This experience reinforced the importance of verification and validation in any computational project.
   
-## Technical Correctness:   
+## Technical Correctness <a name="techcorrect"></a>
 
 
 ## Reproducibility
@@ -57,7 +57,7 @@ Becarefull
 ### Step 4: Look at the results
    
 
-## Code Structure
+## Code Structure  <a name="codestruct"></a>
 
 <p align="center">
 <img src="https://github.com/sarajahedazad/ME700-Final-Project/blob/main/figures/final_project_flowchart.png" width="500">
