@@ -46,7 +46,7 @@ To enhance the accuracy and reliability of the validation process, I plan to:
 
 - Compare Results with Analytical Solutions: Implement a basic column analysis using both MSA and FEA, and compare the results with theoretical solutions for direct verification.
 
-- Explore Mesh Sensitivity: Conduct a mesh refinement study to evaluate how the FEA results converge. (This was previously limited due to memory issues with MSA.)
+- Explore Mesh Sensitivity: Conduct a mesh refinement study to evaluate how the FEA results converge. (This was limited due to memory issues with MSA.)
 
 - Include Asymmetric Structures: Extend the validation to asymmetric structures and develop a systematic method for comparing results between MSA and FEA for these cases.
 
