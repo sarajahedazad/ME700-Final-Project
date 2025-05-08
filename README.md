@@ -2,7 +2,7 @@
 
 ### Table of Contents
 - [Definition of the Problem]( #def )
-- [Skills Used from ME700](#skills)
+- [ME700 Applied Skills](#skills)
 - [Technical Correctness](#techcorrect)
 - [Reproducibility](#Reproducibility)
 - [Code Structure](#codestruct)
@@ -11,7 +11,7 @@
 
 ## Definition of the Problem <a name="def"></a>
 
-## Skills Used from ME700 <a name="skills"></a>
+## ME700 Applied Skills <a name="skills"></a>
 **Setting Up a Conda/Mamba Environment**  
 At the start, I only had a basic understanding of Conda environments. However, throughout ME700, I learned how to create isolated environments, manage dependencies, resolve conflicts, and ensure reproducibility, making my workflow much more efficient and organized.
 
@@ -27,7 +27,30 @@ This project marked my first time implementing Matrix Structural Analysis (MSA) 
 **Validation of Results:**
 Given that my project focused on comparing two different analysis methods (MSA and Finite Element Analysis), I gained experience in systematically validating results.This experience reinforced the importance of verification and validation in any computational project.
   
-## Technical Correctness <a name="techcorrect"></a>
+## Technical Correctness <a name="techcorrect"></a>  
+I believe my work is technically correct because the core objective of my project is to validate the results obtained from finite element analysis (FEA) using a second method, Matrix Structural Analysis (MSA). To ensure accuracy, I used MSA as an independent verification method to cross-check the results from FEA.
+
+**Validation Approach:**
+Selection of Structures: I selected seven symmetric or semi-symmetric structures for testing. Semi-symmetric structures are those that maintain their shape when rotated by 180 degrees. These structures are specifically chosen because their eigenvalues can become negative, a behavior that is not guaranteed for asymmetric structures.
+
+**Comparison Metrics:** 
+
+Critical Displacement: I compared the critical displacement values between the two methods.  
+
+Critical Load: I checked if the critical loads calculated by FEA and MSA matched.  
+
+Eigenmode Shapes: I visually compared the eigenmode shapes between the two methods, ensuring they were consistent.  
+
+**Further Improvements:**
+To enhance the accuracy and reliability of the validation process, I plan to:
+
+- Compare Results with Analytical Solutions: Implement a basic column analysis using both MSA and FEA, and compare the results with theoretical solutions for direct verification.
+
+- Explore Mesh Sensitivity: Conduct a mesh refinement study to evaluate how the FEA results converge. (This was previously limited due to memory issues with MSA.)
+
+- Include Asymmetric Structures: Extend the validation to asymmetric structures and develop a systematic method for comparing results between MSA and FEA for these cases.
+
+- Automate Eigenmode Comparison: Develop an automated approach for comparing eigenmode shapes, such as using interpolation and normalization techniques, instead of relying on manual visual comparison.
 
 
 ## Reproducibility
