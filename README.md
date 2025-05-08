@@ -2,14 +2,14 @@
 
 ## Table of Contents
 
-- [Skills Used in This Project](#skills)
+- [Skills Used from ME700](#skills)
 - [Technical Correctness](#techcorrect)
 - [Reproducibility](#Reproducibility)
 - [Code Structure](#codestruct)
-- [Results](#results)
-- [References](#references)
+- [Results](#Results)
+- [References](#References)
 
-## Skills Used in This Project <a name="skills"></a>
+## Skills Used from ME700 <a name="skills"></a>
 **Setting Up a Conda/Mamba Environment**  
 At the start, I only had a basic understanding of Conda environments. However, throughout ME700, I learned how to create isolated environments, manage dependencies, resolve conflicts, and ensure reproducibility, making my workflow much more efficient and organized.
 
@@ -86,7 +86,7 @@ Note: It should be noted that most of the parameters in this csv file won't be u
 ### Things to be careful about when reproducing the results
 
 
-## Results of the Project <a name="results"></a>
+## Results 
 
 
 ## References
