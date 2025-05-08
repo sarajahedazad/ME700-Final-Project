@@ -10,6 +10,21 @@
 - [References](#References)
 
 ## Definition of the Problem <a name="def"></a>
+Architected materials are fascinating because their geometry—not just their composition—determines their mechanical behavior. In my research, I focus on strut-based architected materials and how they buckle when compressed.
+
+But it's not just if they buckle—it's how they buckle: what shape do they take? How does that relate to their internal layout? That’s the deeper question I’m exploring.
+
+I previously simulated these behaviors in FEniCS, but validation has been a challenge. So I decided to use the matrix structural analysis code I developed in ME700 to cross-validate my results and build a more reliable workflow.
+
+The goal is to compare FEniCS simulations—using the nonlinear Simo-Reissner beam theory—with results from my matrix structural analysis code. I’ll compute the critical load, critical displacement, and buckling shape (mode), then compare them across both approaches.
+
+Doing this manually for a few samples is easy. But as my dataset grows, it becomes tedious. That’s why I plan to build automation to run comparisons, extract results, and perform mesh refinement automatically.
+
+This will serve as a modular, testable framework that not only helps with this class, but directly supports my PhD research moving forward.   
+
+<p align="center">
+<img src="figures/gif_C.gif" width="500">
+</p>
 
 ## ME700 Applied Skills <a name="skills"></a>
 **Setting Up a Conda/Mamba Environment**  
