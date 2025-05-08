@@ -109,6 +109,8 @@ qsub -N myjob_msavsfea -hold_jid "myjobarr*" job_msavsfea.sh
 
 ```
 Becarefull
+
+When you are done with the environment, you can deactivate it by typing this in the terminal: `mamba deactivate`
 ### Step 4: Look at the results
 You can look at the generated   
 **Mesh**
