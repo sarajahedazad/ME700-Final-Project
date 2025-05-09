@@ -30,7 +30,7 @@ This will serve as a modular, testable framework that not only helps with this c
 **Setting Up a Conda/Mamba Environment**  
 At the start, I only had a basic understanding of Conda environments. However, throughout ME700, I learned how to create isolated environments, manage dependencies, resolve conflicts, and ensure reproducibility, making my workflow much more efficient and organized.
 
-**GitHub and Modular Coding**  
+**GitHub and Modular Coding:**  
 I learned how to write more modular and maintainable code by organizing my project into logical functions and modules. This not only improved my code quality but also enhanced my ability to track changes.
 
 **Automation with Bash Scripting:**
@@ -42,13 +42,13 @@ This project marked my first time implementing Matrix Structural Analysis (MSA) 
 **Validation of Results:**
 Given that my project focused on comparing two different analysis methods (MSA and Finite Element Analysis), I gained experience in systematically validating results.This experience reinforced the importance of verification and validation in any computational project.
   
-## Technical Correctness <a name="techcorrect"></a>  
+## Technical Correctness: <a name="techcorrect"></a>    
 I believe my work is technically correct because the core objective of my project is to validate the results obtained from finite element analysis (FEA) using a second method, Matrix Structural Analysis (MSA). To ensure accuracy, I used MSA as an independent verification method to cross-check the results from FEA.
 
 **Validation Approach:**   
 *Selection of Structures:* I selected 10 symmetric or semi-symmetric structures for testing (5 from each). Semi-symmetric structures are those that maintain their shape when rotated by 180 degrees. These structures are specifically chosen because their eigenvalues can become negative, a behavior that is not guaranteed for asymmetric structures.
 
-**Comparison Metrics:** 
+**Comparison Metrics:**   
 
 *Critical Displacement:* I compared the critical displacement values between the two methods.  
 
@@ -56,7 +56,7 @@ I believe my work is technically correct because the core objective of my projec
 
 *Eigenmode Shapes:* I visually compared the eigenmode shapes between the two methods, ensuring they were consistent.  
 
-**Further Improvements:**  
+**Further Improvements:**    
 To enhance the accuracy and reliability of the validation process, I plan to:
 
 - Compare Results with Theoritical Solutions: Implement a basic column analysis using both MSA and FEA, and compare the results with theoretical solutions for direct verification.
