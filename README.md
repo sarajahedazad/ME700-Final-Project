@@ -138,6 +138,8 @@ You can look at the generated
 <img src="https://github.com/sarajahedazad/ME700-Final-Project/blob/main/figures/final_project_flowchart.png" width="500">
 </p>
 
+
+
 ### Before Analysis   
 **Mesh Generation**   
 Mesh generation relies on the routines defined in `archstruct_meshgen_functions.py`. To recreate the full dataset (of which only a handful of samples are used here), simply run the `archstruct_meshgen_main.py` script.
@@ -161,8 +163,10 @@ Note: It should be noted that most of the parameters in this csv file won't be u
 ### Things to be careful about when reproducing the results
 
 
-## Results 
-
+## Results   
+<p align="center">
+<img src="https://github.com/sarajahedazad/ME700-Final-Project/blob/main/figures/msavsfea_eigenmodes.png" >
+</p>
 
 ## References
 
