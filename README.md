@@ -59,7 +59,7 @@ I believe my work is technically correct because the core objective of my projec
 
 *Eigenmode Shapes:* I visually compared the eigenmode shapes between the two methods, ensuring they were consistent.  
 
-**Further Improvements:**    
+**Further Improvements**    
 To enhance the accuracy and reliability of the validation process, I plan to:
 
 - Compare Results with Theoritical Solutions: Implement a basic column analysis using both MSA and FEA, and compare the results with theoretical solutions for direct verification.
@@ -118,9 +118,14 @@ Mesh are generated using `gmsh` and stored in the designated directory.
 *Directory:* `inputs/archstruct/mesh/mesh2D/meshlcar1`    (`1` is `lcar` or carachteristic length of the mesh here. We define it when we generate a mesh.)
 *File Naming Example:*  `meshny4nx2celltypes456cellsize20lcar1ID1.xdmf` (Each `.xdmf` file comes with a `.h5` file. )
 
-**Keys**
-*Directory:* 
-*Naming Example:* `keys_ny4nx2celltypes456.csv` 
+**Keys**  
+How to convert a string that represents cell types to ID?   
+*Directory:* `inputs/archstruct/keys`
+*Naming Example:* `keys_ny4nx2celltypes456.csv`  
+
+**Job Parameters**    
+*Directory:* `inputs/archstruct/jobparams_csv`
+*Naming Example:* `jobs_samplecheck_perturbnan.csv`  
 
 **MSA Results: Critical Displacement, Critical Force and Eigenvector:**    
 The following directory holds the critical forces, critical dispalcements and eigenmodes for 10 samples. The data are in `.txt` format.     
@@ -132,19 +137,22 @@ Note: The eigenvectors that are saved for MSA results, include the terms that ar
 In addition to critical forces, critical dispalcements and eigenmodes, initial configurations for the samples are saved as well.   
 *Directory:* `outputs/archstruct/results2D/FEA/resultslcar1`     
 *Naming Example:*   
-`FEA_ID1_dispcritical_ny4nx2celltypes456cellsize20lcar1r0.25_step0.001thresh0.2abstol1e-10reltol1e-10_perturbtypenanforcepfup0forcepfdown0locupnanlocdownnandisppf0.txt`   
-`FEA_ID1_forcecritical_ny4nx2celltypes456cellsize20lcar1r0.25_step0.001thresh0.2abstol1e-10reltol1e-10_perturbtypenanforcepfup0forcepfdown0locupnanlocdownnandisppf0.txt`    
-`FEA_ID1_eigenvector_ny4nx2celltypes456cellsize20lcar1r0.25_step0.001thresh0.2abstol1e-10reltol1e-10_perturbtypenanforcepfup0forcepfdown0locupnanlocdownnandisppf0.txt`    
-`FEA_ID1_initconf_ny4nx2celltypes456cellsize20lcar1r0.25_step0.001thresh0.2abstol1e-10reltol1e-10_perturbtypenanforcepfup0forcepfdown0locupnanlocdownnandisppf0.txt`           
+* `FEA_ID1_dispcritical_ny4nx2celltypes456cellsize20lcar1r0.25_step0.001thresh0.2abstol1e-10reltol1e-10_perturbtypenanforcepfup0forcepfdown0locupnanlocdownnandisppf0.txt`   
+* `FEA_ID1_forcecritical_ny4nx2celltypes456cellsize20lcar1r0.25_step0.001thresh0.2abstol1e-10reltol1e-10_perturbtypenanforcepfup0forcepfdown0locupnanlocdownnandisppf0.txt`    
+* `FEA_ID1_eigenvector_ny4nx2celltypes456cellsize20lcar1r0.25_step0.001thresh0.2abstol1e-10reltol1e-10_perturbtypenanforcepfup0forcepfdown0locupnanlocdownnandisppf0.txt`    
+* `FEA_ID1_initconf_ny4nx2celltypes456cellsize20lcar1r0.25_step0.001thresh0.2abstol1e-10reltol1e-10_perturbtypenanforcepfup0forcepfdown0locupnanlocdownnandisppf0.txt`
+        
 Note: The eigenvectors that are saved for MSA results, include the terms that are related rotation, unlike the eigenvector array that is saved for FEA that only include terms related to x and y displacements. The eigenvector saved for MSA is 1D, while it is 2D for FEA.        
 **Wrapped Up Results:**   
 *Directory:* `outputs/archstruct/results2D/wrappedup`      
 *Some Files that Are Saved:*     
-`jobssamplecheck_dispcritical.png`   
-`jobssamplecheck_errors.png`     
-`jobssamplecheck_forcecritical.png`      
-`MSA_ID1_eigenmode.png`   (one for each ID)   
-`FEA_ID1_eigenmode.png`   (one for each ID)   
+* `jobssamplecheck_dispcritical.png`   
+* `jobssamplecheck_errors.png`     
+* `jobssamplecheck_forcecritical.png`      
+* `MSA_ID1_eigenmode.png`   (one for each ID)   
+* `FEA_ID1_eigenmode.png`   (one for each ID)   
+* `results_samplecheck.csv`
+ 
 Note: The `samplecheck` refers to the `job_type` that is defined when defining job parameters.
 
 
