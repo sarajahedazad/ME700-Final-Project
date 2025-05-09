@@ -170,17 +170,17 @@ Note: It should be noted that most of the parameters in this csv file won't be u
 ## Results  
 **Comparison of Critical Displacemnt Values in MSA and FEA Across Ten Samples**   
 <p align="center">
-<img src="https://github.com/sarajahedazad/ME700-Final-Project/blob/main/figures/jobssamplecheck_dispcritical.png" width="500">
+<img src="https://github.com/sarajahedazad/ME700-Final-Project/blob/main/figures/jobssamplecheck_dispcritical.png" width="700">
 </p>
 
 **Comparison of Critical Force Values in MSA and FEA Across Ten Samples**   
 <p align="center">
-<img src="https://github.com/sarajahedazad/ME700-Final-Project/blob/main/figures/jobssamplecheck_forcecritical.png" width="500">
+<img src="https://github.com/sarajahedazad/ME700-Final-Project/blob/main/figures/jobssamplecheck_forcecritical.png" width="700">
 </p>
 
 **Percentage Errors**   
 <p align="center">
-<img src="https://github.com/sarajahedazad/ME700-Final-Project/blob/main/figures/jobssamplecheck_errors.png" width="500">
+<img src="https://github.com/sarajahedazad/ME700-Final-Project/blob/main/figures/jobssamplecheck_errors.png" width="700">
 </p>
 
 
