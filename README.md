@@ -46,7 +46,7 @@ Given that my project focused on comparing two different analysis methods (MSA a
 I believe my work is technically correct because the core objective of my project is to validate the results obtained from finite element analysis (FEA) using a second method, Matrix Structural Analysis (MSA). To ensure accuracy, I used MSA as an independent verification method to cross-check the results from FEA.
 
 **Validation Approach:**   
-*Selection of Structures:* I selected seven symmetric or semi-symmetric structures for testing. Semi-symmetric structures are those that maintain their shape when rotated by 180 degrees. These structures are specifically chosen because their eigenvalues can become negative, a behavior that is not guaranteed for asymmetric structures.
+*Selection of Structures:* I selected 10 symmetric or semi-symmetric structures for testing (5 from each). Semi-symmetric structures are those that maintain their shape when rotated by 180 degrees. These structures are specifically chosen because their eigenvalues can become negative, a behavior that is not guaranteed for asymmetric structures.
 
 **Comparison Metrics:** 
 
@@ -99,7 +99,7 @@ module load miniconda
 mamba activate me700-final
 ```
 ### Step 3: Running the Codes   
-Copy and paste the following commands in the terminal on SCC. You have to wait until the jobs are finished. You will recieve an email when the first job atats and when the last job finishes.
+Copy and paste the following commands in the terminal on SCC. You have to wait until the jobs are finished. You will recieve an email when the first job starts and when the last job finishes.
 ```
 qsub -N myjob_meshgen job_meshgen.sh
 qsub -N myjob_jobscsvgen -hold_jid myjob_meshgen job_jobscsvgen.sh
@@ -108,6 +108,7 @@ qsub -N myjobarr_fea -hold_jid myjob_jobscsvgen jobarr_fea.sh
 qsub -N myjob_msavsfea -hold_jid "myjobarr*" job_msavsfea.sh
 
 ```
+Note: to remove the email option look into files `
 Becarefull
 
 When you are done with the environment, you can deactivate it by typing this in the terminal: `mamba deactivate`
