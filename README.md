@@ -8,6 +8,7 @@
 - [Code Structure](#codestruct)
 - [Results](#Results)
 - [References](#References)
+- [Other Things to Talk About!](#others)
 
 ## Problem Definition <a name="def"></a>
 Architected materials are fascinating because their geometry—not just their composition—determines their mechanical behavior. In my research, I focus on strut-based architected materials and how they buckle when compressed.
@@ -108,8 +109,8 @@ qsub -N myjobarr_fea -hold_jid myjob_jobscsvgen jobarr_fea.sh
 qsub -N myjob_msavsfea -hold_jid "myjobarr*" job_msavsfea.sh
 
 ```
-Note: to remove the email option look into files `
-Becarefull
+Note: to remove the email option look into files `job_meshgen.sh` and `job_msavsfea.sh` and remove the line of codes that start with 
+
 
 When you are done with the environment, you can deactivate it by typing this in the terminal: `mamba deactivate`
 ### Step 4: Look at the results
@@ -164,12 +165,18 @@ Note: It should be noted that most of the parameters in this csv file won't be u
 ### Things to be careful about when reproducing the results
 
 
-## Results   
+## Results  
+**First Eigenmode Comparison**   
+
 <p align="center">
 <img src="https://github.com/sarajahedazad/ME700-Final-Project/blob/main/figures/msavsfea_eigenmodes.png" >
 </p>
 
 ## References
+
+
+## Other Things to Talk About!  <a name="others"></a>
+* If you really hate having the job logs in your folder (like me!) just type `rm -f myjob*` in your terminal after you are done with getting the results. 
 
 
 
