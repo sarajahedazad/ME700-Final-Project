@@ -124,14 +124,15 @@ Mesh are generated using `gmsh` and stored in the designated directory.
 *Directory:* 
 *Naming Example:* `keys_ny4nx2celltypes456.csv` 
 
-**MSA Results: Critical Displacement, Critical Force and Eigenvector:**
-*Directory:* 
-*Naming Example:* 
+**MSA Results: Critical Displacement, Critical Force and Eigenvector:**   
+*Directory:* `outputs/archstruct/results2D/FEA/resultslcar1`     
+*Naming Example:* ``, ``, ``    
+Note: The eigenvectors that are saved for MSA results, include the terms that are related rotation, unlike the eigenvector array that is saved for FEA that only include terms related to x and y displacements. The eigenvector saved for MSA is 1D, while it is 2D for FEA.    
 
 **FEA Results: Critical Displacement, Critical Force and Eigenvector:**
-*Directory:* 
-*Naming Example:* 
-
+*Directory:*    
+*Naming Example:*    
+Note: The eigenvectors that are saved for MSA results, include the terms that are related rotation, unlike the eigenvector array that is saved for FEA that only include terms related to x and y displacements. The eigenvector saved for MSA is 1D, while it is 2D for FEA.      
 **Wrapped Up Results:**
 
 
@@ -167,7 +168,24 @@ Note: It should be noted that most of the parameters in this csv file won't be u
 
 
 ## Results  
-**First Eigenmode Comparison**   
+
+<p align="center">
+<img src="https://github.com/sarajahedazad/ME700-Final-Project/blob/main/figures/jobssamplecheck_dispcritical.png" width="500">
+</p>
+
+
+<p align="center">
+<img src="https://github.com/sarajahedazad/ME700-Final-Project/blob/main/figures/jobssamplecheck_forcecritical.png" width="500">
+</p>
+
+
+<p align="center">
+<img src="https://github.com/sarajahedazad/ME700-Final-Project/blob/main/figures/jobssamplecheck_errors.png" width="500">
+</p>
+
+
+**First Eigenmode Comparison**  
+
 
 <p align="center">
 <img src="https://github.com/sarajahedazad/ME700-Final-Project/blob/main/figures/msavsfea_eigenmodes.png" >
