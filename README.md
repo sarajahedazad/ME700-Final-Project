@@ -114,14 +114,15 @@ Note: to remove the email option look into files `job_meshgen.sh` and `job_msavs
 
 When you are done with the environment, you can deactivate it by typing this in the terminal: `mamba deactivate`
 ### Step 4: Look at the results
-You can look at the generated   
-**Mesh**
-*Directory:* 
-*Naming Example:* 
+You can look at the generated data for inputs, and the output results in the following directories:  
+**Mesh**   
+Mesh are generated using `gmsh` and stored in the designated directory. 
+*Directory:* `inputs/archstruct/mesh/mesh2D/meshlcar1`    (`1` is `lcar` or carachteristic length of the mesh here. We define it when we generate a mesh.)
+*File Naming Example:*  `meshny4nx2celltypes456cellsize20lcar1ID1.xdmf` (Each `.xdmf` file comes with a `.h5` file. )
 
 **Keys**
 *Directory:* 
-*Naming Example:* 
+*Naming Example:* `keys_ny4nx2celltypes456.csv` 
 
 **MSA Results: Critical Displacement, Critical Force and Eigenvector:**
 *Directory:* 
