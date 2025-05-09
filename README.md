@@ -168,17 +168,17 @@ Note: It should be noted that most of the parameters in this csv file won't be u
 
 
 ## Results  
-
+**Comparison of Critical Displacemnt Values in MSA and FEA Across Ten Samples**   
 <p align="center">
 <img src="https://github.com/sarajahedazad/ME700-Final-Project/blob/main/figures/jobssamplecheck_dispcritical.png" width="500">
 </p>
 
-
+**Comparison of Critical Force Values in MSA and FEA Across Ten Samples**   
 <p align="center">
 <img src="https://github.com/sarajahedazad/ME700-Final-Project/blob/main/figures/jobssamplecheck_forcecritical.png" width="500">
 </p>
 
-
+**Percentage Errors**   
 <p align="center">
 <img src="https://github.com/sarajahedazad/ME700-Final-Project/blob/main/figures/jobssamplecheck_errors.png" width="500">
 </p>
@@ -186,12 +186,18 @@ Note: It should be noted that most of the parameters in this csv file won't be u
 
 **First Eigenmode Comparison**  
 
-
+It should be noted that the configuration for each analyasis was saved individually and then put together in one figure using illustrator.  
 <p align="center">
 <img src="https://github.com/sarajahedazad/ME700-Final-Project/blob/main/figures/msavsfea_eigenmodes.png" >
 </p>
 
-## References
+**Conclusion**  
+The percentage error for critical loads and displacements across 10 samples ranges from approximately 0.5% to 2.3%. The eigenmode visuals are also nearly identical. These results could potentially improve with mesh refinement.
+
+## References  
+* ChatGPT   
+* ME700 Course Material   
+* [Arclength Displacement Control Tutorial](https://github.com/pprachas/fenics_arclength/blob/master/examples/displacement_control/fiber_network.ipynb)   
 
 
 ## Other Things to Talk About!  <a name="others"></a>
