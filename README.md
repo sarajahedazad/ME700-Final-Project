@@ -27,7 +27,7 @@ This will serve as a modular, testable framework that not only helps with this c
 </p>
 
 ## ME700 Applied Skills <a name="skills"></a>
-**Setting Up a Conda/Mamba Environment**  
+**Setting Up a Conda/Mamba Environment:**   
 At the start, I only had a basic understanding of Conda environments. However, throughout ME700, I learned how to create isolated environments, manage dependencies, resolve conflicts, and ensure reproducibility, making my workflow much more efficient and organized.
 
 **GitHub and Modular Coding:**  
