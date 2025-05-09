@@ -190,7 +190,7 @@ def save_jobs_csv(
 
 ensure_dir(jobparams_dir)
 
-for perturb in ['nan','smallforce','dispfield']:
+for perturb in ['nan']:
     save_jobs_csv(
         jobparams_dir, perturb, jobtype,
         strkey_lst, a_lst, lcar_lst, tstep_lst,
