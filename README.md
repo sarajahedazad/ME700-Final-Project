@@ -128,7 +128,7 @@ The following directory holds the critical forces, critical dispalcements and ei
 *Naming Example:* `MSA_ID1_dispcritical_ny4nx2celltypes456cellsize20lcar1r0.25.txt`, `MSA_ID1_forcecritical_ny4nx2celltypes456cellsize20lcar1r0.25.txt`, `MSA_ID1_eigenvector_ny4nx2celltypes456cellsize20lcar1r0.25.txt`         
 Note: The eigenvectors that are saved for MSA results, include the terms that are related rotation, unlike the eigenvector array that is saved for FEA that only include terms related to x and y displacements. The eigenvector saved for MSA is 1D, while it is 2D for FEA.    
 
-**FEA Results: Critical Displacement, Critical Force and Eigenvector:**
+**FEA Results: Critical Displacement, Critical Force and Eigenvector:**    
 In addition to critical forces, critical dispalcements and eigenmodes, initial configurations for the samples are saved as well.   
 *Directory:* `outputs/archstruct/results2D/FEA/resultslcar1`     
 *Naming Example:*   
@@ -136,9 +136,16 @@ In addition to critical forces, critical dispalcements and eigenmodes, initial c
 `FEA_ID1_forcecritical_ny4nx2celltypes456cellsize20lcar1r0.25_step0.001thresh0.2abstol1e-10reltol1e-10_perturbtypenanforcepfup0forcepfdown0locupnanlocdownnandisppf0.txt`    
 `FEA_ID1_eigenvector_ny4nx2celltypes456cellsize20lcar1r0.25_step0.001thresh0.2abstol1e-10reltol1e-10_perturbtypenanforcepfup0forcepfdown0locupnanlocdownnandisppf0.txt`    
 `FEA_ID1_initconf_ny4nx2celltypes456cellsize20lcar1r0.25_step0.001thresh0.2abstol1e-10reltol1e-10_perturbtypenanforcepfup0forcepfdown0locupnanlocdownnandisppf0.txt`           
-Note: The eigenvectors that are saved for MSA results, include the terms that are related rotation, unlike the eigenvector array that is saved for FEA that only include terms related to x and y displacements. The eigenvector saved for MSA is 1D, while it is 2D for FEA.      
+Note: The eigenvectors that are saved for MSA results, include the terms that are related rotation, unlike the eigenvector array that is saved for FEA that only include terms related to x and y displacements. The eigenvector saved for MSA is 1D, while it is 2D for FEA.        
 **Wrapped Up Results:**   
-* `results_MSAvsFEA_main.py`   
+*Directory:* `outputs/archstruct/results2D/wrappedup`      
+*Some Files that Are Saved:*     
+`jobssamplecheck_dispcritical.png`   
+`jobssamplecheck_errors.png`     
+`jobssamplecheck_forcecritical.png`      
+`MSA_ID1_eigenmode.png`   (one for each ID)   
+`FEA_ID1_eigenmode.png`   (one for each ID)   
+Note: The `samplecheck` refers to the `job_type` that is defined when defining job parameters.
 
 
 ## Code Structure  <a name="codestruct"></a>
