@@ -33,7 +33,7 @@ At the start, I only had a basic understanding of Conda environments. However, t
 **GitHub and Modular Coding:**  
 I learned how to write more modular and maintainable code by organizing my project into logical functions and modules. This not only improved my code quality but also enhanced my ability to track changes.
 
-**Automation with Bash Scripting:**
+**Automation with Bash Scripting:**   
 Managing multiple datasets and running numerous scripts manually is inefficient and error-prone. Through this project, I developed skills in automation, writing Bash scripts that allowed me to run multiple Python scripts and submit jobs to the computing cluster automatically.
 
 **Matrix Structural Analysis (MSA):**  
