@@ -111,7 +111,7 @@ Note: to remove the email option look into files `job_meshgen.sh` and `job_msavs
 
 
 When you are done with the environment, you can deactivate it by typing this in the terminal: `mamba deactivate`
-### Step 4: Look at the results (Or look [here](#Results))!    
+### (Step 4?) Look at the results (Or look [here](#Results))!    
 You can look at the generated data for inputs, and the output results in the following directories:  
 **Mesh**   
 Mesh are generated using `gmsh` and stored in the designated directory. 
