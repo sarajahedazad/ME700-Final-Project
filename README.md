@@ -10,7 +10,7 @@
 - [References](#References)
 - [Other Things to Talk About!](#others)
 
-NOTE: **GENERATIVE AI STATEMENT** can be found [here](https://github.com/sarajahedazad/ME700-Final-Project/blob/main/finalproject_genAIuse.txt).
+NOTE: [**GENERATIVE AI STATEMENT** can be found here](https://github.com/sarajahedazad/ME700-Final-Project/blob/main/finalproject_genAIuse.txt).
 
 ## Problem Definition <a name="def"></a>
 Architected materials are fascinating because their geometry—not just their composition—determines their mechanical behavior. In my research, I focus on strut-based architected materials and how they buckle when compressed.
