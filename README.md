@@ -140,7 +140,7 @@ Note: The eigenvectors that are saved for MSA results, include the terms that ar
 
 
 
-### Before Analysis   
+### ✔️Before Analysis   
 **Mesh Generation**   
 * `archstruct_meshgen_functions.py`      
 * `archstruct_meshgen_main.py`
@@ -157,7 +157,7 @@ lcar_lst = [2, 1, 0.1]
 ```
 You can see the rest of the parameters that should be defined in `archstruct_jobscsvgen.py`.   
 Note: It should be noted that most of the parameters in this csv file won't be used in MSA, and parts of them won't be used in FEA either if there is no perturbation. Even if there is perturbation, not all of them will be used (it depends on the type of perturbation)
-### Analysis
+### ✔️Analysis
 **Matrix Structural Analysis**   
 * `MSA_geometry_2D.py`   
 * `MSA_boundaryconditions_2D.py`
@@ -176,13 +176,13 @@ Also uses:
 Also uses:
 * `reading_saving_functions.py`
 
-### Wrapping Up Results <a name="wrapup"></a>
+### ✔️Wrapping Up Results <a name="wrapup"></a>
 * `results_MSAvsFEA_main.py`
 
 Also uses:
 * `reading_saving_functions.py`
 
-### Other Files  
+### ✔️Other Files  
 **Functions for Reading and Using Inputs and Saving Results**   
 * `reading_saving_functions.py`   
 **Job Submission Bash Files**   
@@ -191,10 +191,6 @@ Also uses:
 * `jobarr_msa.sh`    
 * `jobarr_fea.sh`    
 * `job_msavsfea.sh`   
-
-
-
-### Things to be careful about when reproducing the results
 
 
 ## Results  
