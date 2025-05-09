@@ -115,16 +115,16 @@ When you are done with the environment, you can deactivate it by typing this in 
 You can look at the generated data for inputs, and the output results in the following directories:  
 **Mesh**   
 Mesh are generated using `gmsh` and stored in the designated directory. 
-*Directory:* `inputs/archstruct/mesh/mesh2D/meshlcar1`    (`1` is `lcar` or carachteristic length of the mesh here. We define it when we generate a mesh.)
+*Directory:* `inputs/archstruct/mesh/mesh2D/meshlcar1`    (`1` is `lcar` or carachteristic length of the mesh here. We define it when we generate a mesh.)     
 *File Naming Example:*  `meshny4nx2celltypes456cellsize20lcar1ID1.xdmf` (Each `.xdmf` file comes with a `.h5` file. )
 
 **Keys**  
 How to convert a string that represents cell types to ID?   
-*Directory:* `inputs/archstruct/keys`
+*Directory:* `inputs/archstruct/keys`      
 *Naming Example:* `keys_ny4nx2celltypes456.csv`  
 
 **Job Parameters**    
-*Directory:* `inputs/archstruct/jobparams_csv`
+*Directory:* `inputs/archstruct/jobparams_csv`       
 *Naming Example:* `jobs_samplecheck_perturbnan.csv`  
 
 **MSA Results: Critical Displacement, Critical Force and Eigenvector:**    
@@ -142,7 +142,9 @@ In addition to critical forces, critical dispalcements and eigenmodes, initial c
 * `FEA_ID1_eigenvector_ny4nx2celltypes456cellsize20lcar1r0.25_step0.001thresh0.2abstol1e-10reltol1e-10_perturbtypenanforcepfup0forcepfdown0locupnanlocdownnandisppf0.txt`    
 * `FEA_ID1_initconf_ny4nx2celltypes456cellsize20lcar1r0.25_step0.001thresh0.2abstol1e-10reltol1e-10_perturbtypenanforcepfup0forcepfdown0locupnanlocdownnandisppf0.txt`
         
-Note: The eigenvectors that are saved for MSA results, include the terms that are related rotation, unlike the eigenvector array that is saved for FEA that only include terms related to x and y displacements. The eigenvector saved for MSA is 1D, while it is 2D for FEA.        
+Note: The eigenvectors that are saved for MSA results, include the terms that are related rotation, unlike the eigenvector array that is saved for FEA that only include terms related to x and y displacements. The eigenvector saved for MSA is 1D, while it is 2D for FEA. 
+
+
 **Wrapped Up Results:**   
 *Directory:* `outputs/archstruct/results2D/wrappedup`      
 *Some Files that Are Saved:*     
