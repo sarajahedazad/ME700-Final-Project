@@ -93,12 +93,8 @@ pip install pandas
 pip install pygmsh
 pip install numpy
 ```
-**OR** You can alternatively use conda instead of mamba. (load conda instead of miniconda)
-Once you have gone through this process, next time you need that environment you can simply run the following:
-```
-module load miniconda
-mamba activate me700-final
-```
+**OR** You can alternatively use conda instead of mamba. (load conda instead of miniconda)  
+
 ### Step 3: Running the Codes   
 Copy and paste the following commands in the terminal on SCC. You have to wait until the jobs are finished. You will recieve an email when the first job starts and when the last job finishes.
 ```
@@ -146,9 +142,12 @@ Note: The eigenvectors that are saved for MSA results, include the terms that ar
 
 ### Before Analysis   
 **Mesh Generation**   
+* `archstruct_meshgen_functions.py`   
+* `archstruct_meshgen_main.py`   
 Mesh generation relies on the routines defined in `archstruct_meshgen_functions.py`. To recreate the full dataset (of which only a handful of samples are used here), simply run the `archstruct_meshgen_main.py` script.
 
 **Generating CSV Containing Parameters**  
+* `archstruct_jobscsvgen.py`
 You can specify the list of parameters to iterate over when running batch jobs in `archstruct_jobscsvgen.py`. For example, to perform analysis on three samples with cell keys 44444444, 55555555, and 66666666 across three mesh critical lengths (2, 1, and 0.1), you should define:
 ```
 strkey_lst = ['44444444', '55555555', '66666666']
@@ -158,10 +157,31 @@ You can see the rest of the parameters that should be defined in `archstruct_job
 Note: It should be noted that most of the parameters in this csv file won't be used in MSA, and parts of them won't be used in FEA either if there is no perturbation. Even if there is perturbation, not all of them will be used (it depends on the type of perturbation)
 ### Analysis
 **Matrix Structural Analysis**   
+* `MSA_geometry_2D.py`   
+* `MSA_boundaryconditions_2D.py`
+* `MSA_stiffnessmatrices_2D.py`
+* `MSA_solver.py`   
+* `MSA_shapefunctions_2D.py`   
+* `MSA_demo.py`   
+* `reading_saving_functions.py`
 
 **Finite Element Analysis**
+* `FEA_functions.py`   
+* `FEA_main.py`
 
 ### Wrapping Up Results <a name="wrapup"></a>
+* 
+
+### Other Files  
+**Functions for Reading and Using Inputs and Saving Results**   
+* ``   
+**Job Submission Bash Files**   
+* 
+* 
+* 
+* 
+* 
+
 
 
 ### Things to be careful about when reproducing the results
