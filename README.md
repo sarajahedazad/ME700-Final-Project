@@ -142,12 +142,14 @@ Note: The eigenvectors that are saved for MSA results, include the terms that ar
 
 ### Before Analysis   
 **Mesh Generation**   
-* `archstruct_meshgen_functions.py`   
-* `archstruct_meshgen_main.py`   
-Mesh generation relies on the routines defined in `archstruct_meshgen_functions.py`. To recreate the full dataset (of which only a handful of samples are used here), simply run the `archstruct_meshgen_main.py` script.
+* `archstruct_meshgen_functions.py`      
+* `archstruct_meshgen_main.py`
+    
+Mesh generation relies on the routines defined in `archstruct_meshgen_functions.py`. To recreate the mesh files used in this project, you can simply run the `archstruct_meshgen_main.py` script.
 
 **Generating CSV Containing Parameters**  
 * `archstruct_jobscsvgen.py`
+
 You can specify the list of parameters to iterate over when running batch jobs in `archstruct_jobscsvgen.py`. For example, to perform analysis on three samples with cell keys 44444444, 55555555, and 66666666 across three mesh critical lengths (2, 1, and 0.1), you should define:
 ```
 strkey_lst = ['44444444', '55555555', '66666666']
@@ -162,25 +164,33 @@ Note: It should be noted that most of the parameters in this csv file won't be u
 * `MSA_stiffnessmatrices_2D.py`
 * `MSA_solver.py`   
 * `MSA_shapefunctions_2D.py`   
-* `MSA_demo.py`   
+* `MSA_demo.py`
+
+Also uses:
 * `reading_saving_functions.py`
 
 **Finite Element Analysis**
 * `FEA_functions.py`   
 * `FEA_main.py`
 
+Also uses:
+* `reading_saving_functions.py`
+
 ### Wrapping Up Results <a name="wrapup"></a>
-* 
+* `results_MSAvsFEA_main.py`
+
+Also uses:
+* `reading_saving_functions.py`
 
 ### Other Files  
 **Functions for Reading and Using Inputs and Saving Results**   
-* ``   
+* `reading_saving_functions.py`   
 **Job Submission Bash Files**   
-* 
-* 
-* 
-* 
-* 
+* `job_meshgen.sh`    
+* `job_jobscsvgen.sh`     
+* `jobarr_msa.sh`    
+* `jobarr_fea.sh`    
+* `job_msavsfea.sh`   
 
 
 
