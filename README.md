@@ -122,17 +122,24 @@ Mesh are generated using `gmsh` and stored in the designated directory.
 *Directory:* 
 *Naming Example:* `keys_ny4nx2celltypes456.csv` 
 
-**MSA Results: Critical Displacement, Critical Force and Eigenvector:**   
-*Directory:* `outputs/archstruct/results2D/FEA/resultslcar1`     
-*Naming Example:* ``, ``, ``    
+**MSA Results: Critical Displacement, Critical Force and Eigenvector:**    
+The following directory holds the critical forces, critical dispalcements and eigenmodes for 10 samples. The data are in `.txt` format.     
+*Directory:* `outputs/archstruct/results2D/MSA/resultslcar1`        
+*Naming Example:* `MSA_ID1_dispcritical_ny4nx2celltypes456cellsize20lcar1r0.25.txt`, `MSA_ID1_forcecritical_ny4nx2celltypes456cellsize20lcar1r0.25.txt`, `MSA_ID1_eigenvector_ny4nx2celltypes456cellsize20lcar1r0.25.txt`         
 Note: The eigenvectors that are saved for MSA results, include the terms that are related rotation, unlike the eigenvector array that is saved for FEA that only include terms related to x and y displacements. The eigenvector saved for MSA is 1D, while it is 2D for FEA.    
 
 **FEA Results: Critical Displacement, Critical Force and Eigenvector:**
-*Directory:*    
-*Naming Example:*    
+In addition to critical forces, critical dispalcements and eigenmodes, initial configurations for the samples are saved as well.   
+*Directory:* `outputs/archstruct/results2D/FEA/resultslcar1`     
+*Naming Example:*   
+`FEA_ID1_dispcritical_ny4nx2celltypes456cellsize20lcar1r0.25_step0.001thresh0.2abstol1e-10reltol1e-10_perturbtypenanforcepfup0forcepfdown0locupnanlocdownnandisppf0.txt`   
+`FEA_ID1_forcecritical_ny4nx2celltypes456cellsize20lcar1r0.25_step0.001thresh0.2abstol1e-10reltol1e-10_perturbtypenanforcepfup0forcepfdown0locupnanlocdownnandisppf0.txt`    
+`FEA_ID1_eigenvector_ny4nx2celltypes456cellsize20lcar1r0.25_step0.001thresh0.2abstol1e-10reltol1e-10_perturbtypenanforcepfup0forcepfdown0locupnanlocdownnandisppf0.txt`    
+`FEA_ID1_initconf_ny4nx2celltypes456cellsize20lcar1r0.25_step0.001thresh0.2abstol1e-10reltol1e-10_perturbtypenanforcepfup0forcepfdown0locupnanlocdownnandisppf0.txt`           
 Note: The eigenvectors that are saved for MSA results, include the terms that are related rotation, unlike the eigenvector array that is saved for FEA that only include terms related to x and y displacements. The eigenvector saved for MSA is 1D, while it is 2D for FEA.      
 **Wrapped Up Results:**   
 * `results_MSAvsFEA_main.py`   
+
 
 ## Code Structure  <a name="codestruct"></a>
 
