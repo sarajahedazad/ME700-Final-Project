@@ -39,7 +39,7 @@ Managing multiple datasets and running numerous scripts manually is inefficient 
 **Matrix Structural Analysis (MSA):**  
 This project marked my first time implementing Matrix Structural Analysis (MSA) from scratch. I learned the theoretical foundations, including assembling global stiffness matrices, applying boundary conditions, and solving for displacements and forces. This gave me a deep understanding of how MSA works and how it can be applied to various structural problems.
 
-**Validation of Results:**
+**Validation of Results:**   
 Given that my project focused on comparing two different analysis methods (MSA and Finite Element Analysis), I gained experience in systematically validating results.This experience reinforced the importance of verification and validation in any computational project.
   
 ## Technical Correctness: <a name="techcorrect"></a>    
